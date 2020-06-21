@@ -92,7 +92,7 @@ public static String patToHex(String hash)
 	System.out.println(pat) ;
 	for(int i = 0 ; i < pat.length() ; i++)
 	{
-		hex +=  "0x0" +pat.charAt(i) ;
+		hex += '/' + "0x0" +pat.charAt(i) ;
 	}
 	System.out.println(hex);
 	return hex ;
